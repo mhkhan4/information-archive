@@ -1,0 +1,18 @@
+
+
+spring:
+  application:
+    name: information-archive
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/information-archive
+    username: postgres
+    password: information01
+        
+        
+server:
+  port: 9090
+
+
+
+
